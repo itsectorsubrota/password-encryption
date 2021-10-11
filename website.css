@@ -1,0 +1,242 @@
+#img{
+height: 223px;
+width: 234px;
+border-radius: 2px solid green;
+border: 2px solid blue; 
+}
+#dv{
+background-color: rgb(17, 117, 11,0.8);
+padding: 12px;
+height: 233px;
+width: 245px;
+padding: 23px;
+margin: 23px;
+}
+#bd{
+background-image: url("picture/u4.jpg");
+padding: 12px;
+background-position: center;
+background-size: 566px;
+background-attachment: fixed;
+background-size: cover;
+}
+#form{
+background-color: rgba(34,67,45,0.8);
+font-size: x-large;
+font-family: cursive;
+color: lime;
+padding: 34px;
+border-radius: 12px;
+}
+#ctm{ 
+margin: 0 auto;
+animation-name: text-animation;
+animation-duration:  0.7s;
+animation-iteration-count:10;
+background-color: greenyellow;
+font-size: x-large;
+font-family: fantasy;
+color: green;
+padding: 27px;
+          }
+  @keyframes text-animation {
+      from{
+        
+          color: rgb(62, 228, 21);
+      }
+      to{
+        
+          color: rgb(0, 26, 255);
+      }
+  }
+#check{
+height: 36px;
+width: 40px;
+border: 3px  solid blue ;
+background-color: chartreuse;
+
+}
+#nav{
+background-color: darkblue;
+text-decoration: none;
+color: darkmagenta;
+padding: 34px;
+width: 233px;
+
+}
+#dv3{
+height: 153px;
+width: 165px;
+}
+.div56{
+height: 314px;
+background-color: darkblue;
+}
+#cap{
+color: rgb(204, 20, 14);
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+*{
+  box-sizing: border-box;
+  }
+  .div{
+      background-color: gray;
+      width: 500px;
+      padding: 20px;
+      justify-content: center;
+      margin: 100px;
+      text-transform: uppercase;
+     
+  }
+  .div li{
+color: rebeccapurple;
+font-family: cursive;
+/*list-style-position: none;*/
+list-style-type: none;
+margin: 50px 0;
+font-weight: bolder;
+position: relative;
+
+  }
+  .div li::before{
+content: '';
+background-color: honeydew;
+height: 25px;
+width:100%;
+top: calc(100% + 10px);
+border-radius: 455px;
+background-color: rgb(236, 245, 253);
+left: 0px;
+position: absolute;
+animation-duration: 8s;
+animation-timing-function: linear;
+animation-delay: 1s;
+animation-direction: forward;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+
+}
+.div li::after{
+content: '';
+position: absolute;
+background-color: honeydew;
+height: 25px;
+width:0;
+top: calc(100% + 10px);
+border-radius: 455px;
+left: 0px;
+background-color: rgb(236, 245, 253);
+animation-duration: 8s;
+animation-timing-function: linear;
+animation-delay: 1s;
+animation-direction: forward;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+}
+.div li.html::after{
+animation-name: html;
+}
+@keyframes html {
+
+to{
+  width: 80%;
+  background-color: green;
+}
+}
+.div li.css::after{
+animation-name: css;
+}
+@keyframes css {
+to{
+  background-color: tomato;
+  width: 70%;
+}
+
+}
+.div li.javascript::after{
+animation-name: js;
+}
+@keyframes js {
+to{
+  width: 60%;
+  background-color: royalblue;
+}
+}
+.div li.jquery::after{
+animation-name: jq;
+}
+@keyframes jq {
+to{
+  width: 50%;
+  background-color: seagreen;
+}
+}
+.div:hover{
+  border: 2px solid green;
+  box-shadow: 6px 5px 6px 4px black;
+}
+.div li.bootstrap::after{
+  animation-name: bots;
+  }
+  @keyframes bots {
+  to{
+      width: 70%;
+      background-color: blueviolet;
+  }
+  }
+  .div li.cplus::after{
+      animation-name: cpls;
+      }
+      @keyframes cpls {
+      to{
+          width: 30%;
+          background-color: rgb(214, 60, 14);
+      }
+      }
+
+      .div li.php::after{
+          animation-name: php;
+          }
+          @keyframes php {
+          to{
+              width: 50%;
+              background-color: rgb(74, 238, 24);
+          }
+          }
+          .list{
+            background-color: blueviolet;
+            margin: 60px;
+            padding: 12px;
+            text-align: center;
+            color: brown;
+            text-transform: uppercase;
+            float: right;
+
+        }
+        .list li{
+            list-style-type: none;
+            list-style-image: url("picture/tick.PNG");
+            list-style-position: inside;
+            padding: 34px;
+            lighting-color: chartreuse;
+            list-style-position:inside;
+            float: left;
+        }
+        .h2{ 
+          margin: 0 auto;
+          animation-name: head-animation;
+          animation-duration:  2s;
+          animation-iteration-count:infinite;
+          animation-fill-mode: forwards;
+          animation-timing-function: linear;
+          font-family: fantasy;
+          color: green;
+              }
+            @keyframes head-animation {
+      from{
+        color: green;
+      
+      }to{
+        color: rgb(216, 19, 183);
+      }
+            }
